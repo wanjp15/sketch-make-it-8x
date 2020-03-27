@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "name": "🧮8点网格图片高度计算器",
+  "icon": "icon.png",
+  "author": "Bruno Dai",
+  "version": "1.0",
+  "description": "Make any layer's height be proportional, very cool. Thanks for Jiapeng.",
+  "commands": [
+    {
+      "name": "Make Layers be Proportional",
+      "identifier": "grid-8.make-it-proportional",
+      "script": "./make-it-proportional.js",
+      "shortcut": "cmd 8"
+    },
+    {
+      "name": "Make Layers Height be 8X",
+      "identifier": "grid-8.make-it-8x",
+      "script": "./make-it-8x.js",
+      "shortcut": "cmd shift 8"
+    }
+  ],
+  "menu": {
+    "title": "🧮8点网格图片高度计算器",
+    "items": [
+      "grid-8.make-it-proportional",
+      "grid-8.make-it-8x"
+    ]
+  }
+}
