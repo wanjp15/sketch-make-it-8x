@@ -92,3 +92,4 @@ You will need to specify a `repository` in the `package.json`:
 ```
 # sketch-make-it-8x
 # sketch-make-it-8x
+# sketch-make-it-8x
